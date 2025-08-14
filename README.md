@@ -16,7 +16,7 @@ This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint
 - Add Community Packages to Package Center on NAS (tutorial: https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
 - Install **SynoCli File Tools**, **SynoCli Kernel Tools** and **SynoKerner USB Serial drivers** from community packages
 - Plug in your USB printer
-- Check if the printer is listed on **Synology Control Panel/Info Center/** as USB printer
+- Check if the printer is listed on **Synology Control Panel/Info Center** as USB printer (must be listed)
 - Edit the **docker-compose.yml** to set administrator account and password
   - Default is **print / print** ("CUPSADMIN: print CUPSPASSWORD: print")
 
