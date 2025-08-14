@@ -28,6 +28,8 @@ This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint
 - Download all files and folders from this repo and put them to the **synology-airprint** folder
 - Edit the **docker-compose.yml** to set administrator account and password
   - Default is **print / print** ("CUPSADMIN: print CUPSPASSWORD: print")
+- Edit the **docker-compose.yml** to set **Time Zone**
+  - Default is **Europe/Budapest** ("TZ: Europe/Budapest")
 - Open **Container Manager** on NAS and create a **New Project**
   - Project name: synology-airprint
   - Path: /volume1/docker/synology-airprint
