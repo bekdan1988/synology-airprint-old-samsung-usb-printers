@@ -25,10 +25,10 @@ Before Install:
   Note: Be careful to enter only lowercase, not uppercase letters.
 - Download all files from this repo and put them to the **synology-airprint** folder
 - Open **Container Manager** on NAS and create a **New Project**
-  Project name: synology-airprint
-  Path: /volume1/docker/synology-airprint
-  Source: Upload a docker-compose.yml
-  File: Browse /volume1/docker/synology-airprint/docker-compose.yml
+  - Project name: synology-airprint
+  - Path: /volume1/docker/synology-airprint
+  - Source: Upload a docker-compose.yml
+  - File: Browse /volume1/docker/synology-airprint/docker-compose.yml
 - Wait for the build process to finish
 - Access Cups server @ http://your-nas-ip:631/
 - Select **Administration** and log in with your admin account set in **docker-compose.yml**
