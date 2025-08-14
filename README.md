@@ -12,8 +12,8 @@ Added drivers:
 * `Samsung Print Driver for Linux (uld_V1.00.39_01.17 from Samsung Support`
 * `Samsung Unified Linux Driver (UnifiedLinuxDriver-1.00.06 from https://bchemnet.com`
 
-Supported Samsung printers list
-* [bchemnet.com](https://www.bchemnet.com/suldr/supported.html)
+Added Samsung printers list:
+* `[bchemnet.com](https://www.bchemnet.com/suldr/supported.html)`
 
 ## Before Install:
 - Add **Community Packages** to **Package Center** on NAS (tutorial: https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
