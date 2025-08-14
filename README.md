@@ -34,8 +34,10 @@ Before Install:
 - Select **Administration** and log in with your admin account set in **docker-compose.yml**
 - Under **Printers** select **Find New Printers**
 - Select the USB printer you want to add from **Local Printers** and click to **Continue**
-- Set Name, Description, Location. Next to Connection you must see usb://Samsung/_printername_?serial=_printerserial_. Chech **Share This Printer** and click to **Continue**
-- Next to Make Select **SAMSUNG** and Model *Your printers model* and click **Add Printer**
+- Set Name, Description, Location. Next to Connection you must see usb://Samsung/**_printername_**?serial=**_printerserial_**. Chech **Share This Printer** and click to **Continue**
+- Next to Make Select **SAMSUNG** and Model ***Your printers model*** (e.g. Samsung M2020 Series (en)) and click **Add Printer**
+- Go to Printers page and select printer. Click on **Maintance** and select **Print Test Page**
+- Profit
   
 ### Ports/Network:
 * **Must be run on host network. This is required to support multicasting which is needed for Airprint.**
