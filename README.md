@@ -30,6 +30,8 @@ Before Install:
   Source: Upload a docker-compose.yml
   File: Browse /volume1/docker/synology-airprint/docker-compose.yml
 - Wait for the build process to finish
+- Access Cups server @ http://your-nas-ip:631/
+- Select Administration
 
 ### Ports/Network:
 * **Must be run on host network. This is required to support multicasting which is needed for Airprint.**
