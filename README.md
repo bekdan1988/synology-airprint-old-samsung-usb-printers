@@ -2,7 +2,7 @@
 
 # Supported Samsung printers list
 - https://www.bchemnet.com/suldr/supported.html
-* `Samsung_C140x_Series
+`Samsung_C140x_Series
 Samsung_C145x_Series
 Samsung_C1810_Series
 Samsung_C1860_Series
