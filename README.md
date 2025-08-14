@@ -4,33 +4,15 @@
 
 Fork from [quadportnick/docker-cups-airprint](https://github.com/quadportnick/docker-cups-airprint) and [chuckcharlie/docker-cups-airprint](https://github.com/chuckcharlie/docker-cups-airprint)
 
-This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable. Added support for old Samsung USB printers like Samsung Xpress SL-M2026 Laser Printer.
+This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable.
 * `Included drivers HP, Samsung, Canon, Xerox, etc.`
 
+Added support for old Samsung USB printers like Samsung Xpress SL-M2026 Laser Printer.
 
-## Easy run command (use username and password: admin/admin):
-```docker run --name airprint --restart unless-stopped --net host znetwork/synology-airprint:latest```
+Before Install:
+- Add Community Packages to Package Center on NAS (tutorial: https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
+- Install **SynoCli File Tools**, **SynoCli Kernel Tools** and **SynoKerner USB Serial drivers** from community packages
 
-### Before run docker conteiner on DSM7 Synology run this commands in ssh terminal:
-* `sudo synosystemctl stop cupsd`
-* `sudo synosystemctl stop cups-lpd`
-* `sudo synosystemctl stop cups-service-handler`
-* `sudo synosystemctl disable cupsd`
-* `sudo synosystemctl disable cups-lpd`
-* `sudo synosystemctl disable cups-service-handler`
-
-### Add and setup printer:
-* CUPS will be configurable at http://[host ip]:631 using the `admin/admin`.
-* Make sure you select `Share This Printer` when configuring the printer in CUPS.
-* ***After configuring your printer, you need to close the web browser for at least 60 seconds. CUPS will not write the config files until it detects the connection is closed for as long as a minute.***
-
-### After setup and testing AirPrint, you can back run on services. (maybe you will need restart nas)
-* `sudo synosystemctl start cupsd`
-* `sudo synosystemctl start cups-lpd`
-* `sudo synosystemctl start cups-service-handler`
-* `sudo synosystemctl enable cupsd`
-* `sudo synosystemctl enable cups-lpd`
-* `sudo synosystemctl enable cups-service-handler`
 
 ## Manual Configuration
 
