@@ -11,6 +11,7 @@ services:
     environment:
       CUPSADMIN: print
       CUPSPASSWORD: print
+      TZ: Europe/Budapest
     devices:
       - "/dev/bus/usb:/dev/bus/usb"
     volumes:
