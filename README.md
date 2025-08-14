@@ -11,7 +11,7 @@ Added support for old Samsung USB printers like Samsung Xpress SL-M2026 Laser Pr
 * `Added drivers Samsung Print Driver for Linux (uld_V1.00.39_01.17 from Samsung Support) and Samsung Unified Linux Driver (UnifiedLinuxDriver-1.00.06 from https://www.bchemnet.com/suldr/)`
 
 ## Before Install:
-- Add Community Packages to Package Center on NAS (tutorial: https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
+- Add **Community Packages** to **Package Center** on NAS (tutorial: https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
 - Install **SynoCli File Tools**, **SynoCli Kernel Tools** and **SynoKerner USB Serial drivers** from community packages
 - Install **Text Editor** from **Package Center** to edit _yml_ file directly on NAS (https://mariushosting.com/synology-text-editor-is-a-must-have/)
 - Plug in your USB printer
