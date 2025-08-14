@@ -2,9 +2,6 @@
 - Included drivers HP, Samsung, Canon, Xerox, etc.
 - It supports old Samsung USB printers too (e.g. Samsung Xpress SL-M2026 Laser Printer).
 
-# Supported Samsung printers list
-[https://bchemnet.com/suldr/supported.html](https://www.bchemnet.com/suldr/supported.html)
-
 # Working on Synology DSM 7 and AMD64 (Tested on Synology DS423+)
 
 Fork from [ziwork/synology-airprint](https://github.com/ziwork/synology-airprint)
@@ -12,8 +9,11 @@ Fork from [ziwork/synology-airprint](https://github.com/ziwork/synology-airprint
 This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable.
 * `Included drivers HP, Samsung, Canon, Xerox, etc.`
 
-Added support for old Samsung USB printers (e.g. Samsung Xpress SL-M2026 Laser Printer)
+It supports old Samsung USB printers too (e.g. Samsung Xpress SL-M2026 Laser Printer).
 * `Added drivers Samsung Print Driver for Linux (uld_V1.00.39_01.17 from Samsung Support) and Samsung Unified Linux Driver (UnifiedLinuxDriver-1.00.06 from https://www.bchemnet.com/suldr/)`
+
+Supported Samsung printers list
+* `[https://bchemnet.com/suldr/supported.html](https://www.bchemnet.com/suldr/supported.html)`
 
 ## Before Install:
 - Add **Community Packages** to **Package Center** on NAS (tutorial: https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
