@@ -1,4 +1,4 @@
-# znetwork/cups-avahi-airprint [docker-image](https://hub.docker.com/r/znetwork/synology-airprint)
+# znetwork/cups-avahi-airprint [docker-image](https://hub.docker.com/r/znetwork/synology-airprint) - Added support for old Samsung USB printers like Samsung Xpress SL-M2026 Laser Printer
 
 # Working on Synology DSM 7 (!!!) and AMD64
 
