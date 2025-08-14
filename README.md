@@ -14,7 +14,7 @@ Before Install:
 - Install **SynoCli File Tools**, **SynoCli Kernel Tools** and **SynoKerner USB Serial drivers** from community packages
 - Plug in your USB printer
 - Check if the printer is listed on **Synology Control Panel/Info Center/** as USB printer
-- Edit the **docker-compose.yml** to set administrator name and password
+- Edit the **docker-compose.yml** to set administrator account and password
   Default is: "CUPSADMIN: print CUPSPASSWORD: print"
 
 ## Installation
@@ -31,7 +31,11 @@ Before Install:
   File: Browse /volume1/docker/synology-airprint/docker-compose.yml
 - Wait for the build process to finish
 - Access Cups server @ http://your-nas-ip:631/
-- Select Administration
-
+- Select **Administration** and log in with your admin account set in **docker-compose.yml**
+- Under **Printers** select **Find New Printers**
+- Select the USB printer you want to add from **Local Printers** and click to **Continue**
+- Set Name, Description, Location. Next to Connection you must see usb://Samsung/_printername_?serial=_printerserial_. Chech **Share This Printer** and click to **Continue**
+- Next to Make Select **SAMSUNG** and Model *Your printers model* and click **Add Printer**
+  
 ### Ports/Network:
 * **Must be run on host network. This is required to support multicasting which is needed for Airprint.**
