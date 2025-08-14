@@ -9,11 +9,11 @@ This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint
 * `Included drivers HP, Samsung, Canon, Xerox, etc.`
 
 Added drivers:
-* `Samsung Print Driver for Linux (uld_V1.00.39_01.17 from `[Samsung Support](http://downloadcenter.samsung.com/content/DR/201704/20170407143829533/uld_V1.00.39_01.17.tar.gz)`
-* `Samsung Unified Linux Driver (UnifiedLinuxDriver-1.00.06 from `[https://bchemnet.com/suldr/](https://www.bchemnet.com/suldr/)`
+* `Samsung Print Driver for Linux (uld_V1.00.39_01.17 from `[Samsung Support](http://downloadcenter.samsung.com/content/DR/201704/20170407143829533/uld_V1.00.39_01.17.tar.gz)
+* `Samsung Unified Linux Driver (UnifiedLinuxDriver-1.00.06 from `[https://bchemnet.com/suldr/](https://www.bchemnet.com/suldr/)
 
 Supported Samsung printers list
-* [bchemnet.com/](https://www.bchemnet.com/suldr/supported.html)
+* `[bchemnet.com](https://www.bchemnet.com/suldr/supported.html)
 
 ## Before Install:
 - Add **Community Packages** to **Package Center** on NAS (tutorial: https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
