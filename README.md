@@ -8,8 +8,11 @@ This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint
 * `Included drivers HP, Samsung, Canon, Xerox, etc.`
 
 **Added support for old Samsung USB printers like Samsung Xpress SL-M2026 Laser Printer.**
+- Drivers:
+  - uld_V1.00.39_01.17 (from Samsung Support)
+  - UnifiedLinuxDriver-1.00.06 (from https://www.bchemnet.com/suldr/)
 
-Before Install:
+## Before Install:
 - Add Community Packages to Package Center on NAS (tutorial: https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
 - Install **SynoCli File Tools**, **SynoCli Kernel Tools** and **SynoKerner USB Serial drivers** from community packages
 - Plug in your USB printer
