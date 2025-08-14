@@ -45,6 +45,10 @@ RUN cd /tmp/ && tar -xvzf UnifiedLinuxDriver-1.00.06.tar.gz
 RUN cp /tmp/uld/x86_64/pstospl /usr/lib/cups/filter
 RUN cp /tmp/uld/x86_64/pstosplc /usr/lib/cups/filter
 
+# This will set TimeZone
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+RUN apt-get update && apt-get install -y tzdata
+
 # This will use port 631
 EXPOSE 631
 
