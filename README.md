@@ -37,7 +37,7 @@ Before Install:
 - Set Name, Description, Location. Check **Share This Printer** and click to **Continue**
   - Next to Connection you must see "usb://Samsung/**_printername_**?serial=**_printerserial_**".
 - Next to Make Select **SAMSUNG** and Model ***Your printers model*** (e.g. Samsung M2020 Series (en)) and click **Add Printer**
-- Go to Printers page and select printer. Click on **Maintance** and select **Print Test Page**
+- Go to **Printers** page and **select the printer you added**. Click on **Maintance** and select **Print Test Page**
 - Profit
   
 ### Ports/Network:
