@@ -3,7 +3,7 @@
 - It supports old Samsung USB printers too (e.g. Samsung Xpress SL-M2026 Laser Printer).
 
 # Supported Samsung printers list
-`https://www.bchemnet.com/suldr/supported.html`
+[`https://www.bchemnet.com/suldr/supported.html`]
 
 # Working on Synology DSM 7 and AMD64 (Tested on Synology DS423+)
 
