@@ -16,7 +16,7 @@ Added Samsung printers list:
 * [bchemnet.com](https://www.bchemnet.com/suldr/supported.html)
 
 ## Before Install:
-- Add **Community Packages** to **Package Center** on NAS (tutorial: [mariushosting.com](https://mariushosting.com/synology-how-to-add-community-packages-to-package-center/)
+- Add **Community Packages** to **Package Center** on NAS (tutorial: [mariushosting.com](https://mariushosting.com/synology-how-to-add-community-packages-to-package-center)
 - Install **SynoCli File Tools**, **SynoCli Kernel Tools** and **SynoKerner USB Serial drivers** from community packages
 - Install **Text Editor** from **Package Center** to edit _yml_ file directly on NAS (https://mariushosting.com/synology-text-editor-is-a-must-have/)
 - Plug in your USB printer to NAS
