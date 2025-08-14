@@ -30,7 +30,7 @@ Before Install:
   - Source: Upload a docker-compose.yml
   - File: Browse /volume1/docker/synology-airprint/docker-compose.yml
 - Wait for the build process to finish
-- Access Cups server @ http://your-nas-ip:631/
+- Access CUPS server @ http://your-nas-ip:631/
 - Select **Administration** and log in with your admin account set in **docker-compose.yml**
 - Under **Printers** select **Find New Printers**
 - Select the USB printer you want to add from **Local Printers** and click to **Continue**
