@@ -7,7 +7,7 @@ Fork from [quadportnick/docker-cups-airprint](https://github.com/ziwork/synology
 This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable.
 * `Included drivers HP, Samsung, Canon, Xerox, etc.`
 
-Added support for old Samsung USB printers like Samsung Xpress SL-M2026 Laser Printer.
+Added support for old Samsung USB printers (e.g. Samsung Xpress SL-M2026 Laser Printer)
 * `Added drivers Samsung Print Driver for Linux (uld_V1.00.39_01.17 from Samsung Support) and Samsung Unified Linux Driver (UnifiedLinuxDriver-1.00.06 from https://www.bchemnet.com/suldr/)`
 
 ## Before Install:
