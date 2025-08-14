@@ -17,8 +17,6 @@ This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint
 - Install **SynoCli File Tools**, **SynoCli Kernel Tools** and **SynoKerner USB Serial drivers** from community packages
 - Plug in your USB printer
 - Check if the printer is listed on **Synology Control Panel/Info Center** as USB printer (must be listed)
-- Edit the **docker-compose.yml** to set administrator account and password
-  - Default is **print / print** ("CUPSADMIN: print CUPSPASSWORD: print")
 
 ## Installation
 - Go to File Station and open the docker folder. Inside the docker folder, create one new folder and name it **synology-airprint**.
@@ -27,6 +25,8 @@ This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint
 - Now create two new folders inside the **synology-airprint** folder that you have previously created and name them config, services.
   - Note: Be careful to enter only lowercase, not uppercase letters.
 - Download all files from this repo and put them to the **synology-airprint** folder
+- Edit the **docker-compose.yml** to set administrator account and password
+  - Default is **print / print** ("CUPSADMIN: print CUPSPASSWORD: print")
 - Open **Container Manager** on NAS and create a **New Project**
   - Project name: synology-airprint
   - Path: /volume1/docker/synology-airprint
