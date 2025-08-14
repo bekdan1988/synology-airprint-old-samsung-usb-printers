@@ -2,7 +2,7 @@
 
 # Working on Synology DSM 7 (!!!) and AMD64
 
-Fork from [quadportnick/docker-cups-airprint](https://github.com/quadportnick/docker-cups-airprint) and [chuckcharlie/docker-cups-airprint](https://github.com/chuckcharlie/docker-cups-airprint)
+Fork from [quadportnick/docker-cups-airprint](https://github.com/ziwork/synology-airprint)
 
 This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint relay for printers that are already on the network but not AirPrint capable.
 * `Included drivers HP, Samsung, Canon, Xerox, etc.`
