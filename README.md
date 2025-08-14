@@ -24,7 +24,7 @@ This Ubuntu-based Docker image runs a CUPS instance that is meant as an AirPrint
   - Default is: "/volume1/docker/synology-airprint/"
 - Now create two new folders inside the **synology-airprint** folder that you have previously created and name them config, services.
   - Note: Be careful to enter only lowercase, not uppercase letters.
-- Download all files from this repo and put them to the **synology-airprint** folder
+- Download all files and folders from this repo and put them to the **synology-airprint** folder
 - Edit the **docker-compose.yml** to set administrator account and password
   - Default is **print / print** ("CUPSADMIN: print CUPSPASSWORD: print")
 - Open **Container Manager** on NAS and create a **New Project**
