@@ -15,7 +15,7 @@ Before Install:
 - Plug in your USB printer
 - Check if the printer is listed on **Synology Control Panel/Info Center/** as USB printer
 - Edit the **docker-compose.yml** to set administrator account and password
-  - Default is: "CUPSADMIN: print CUPSPASSWORD: print"
+  - Default is **print / print** ("CUPSADMIN: print CUPSPASSWORD: print")
 
 ## Installation
 - Go to File Station and open the docker folder. Inside the docker folder, create one new folder and name it **synology-airprint**.
